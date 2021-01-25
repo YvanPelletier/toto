@@ -25,6 +25,15 @@ input.onButtonPressed(Button.B, function () {
         . # # # #
         `)
 })
+input.onPinPressed(TouchPin.P1, function () {
+    basic.showLeds(`
+        # # # . .
+        # . . # .
+        # . . # .
+        # . . # .
+        # # # . .
+        `)
+})
 basic.showLeds(`
     . . . . .
     . . . . .
